@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VueOptionApi />
+    <VueCompositionApi />
+    <VueCompositionX />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VueOptionApi from './components/VueOptionApi'
+import VueCompositionApi from './components/VueCompositionApi'
+import VueCompositionX from './components/VueCompositionX'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    VueOptionApi,
+    VueCompositionApi,
+    VueCompositionX,
+  },
 }
 </script>
 
